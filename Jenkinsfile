@@ -34,7 +34,7 @@ pipeline
 
     	always
     	{
-    		emaitext body: 'Summary', subject: 'Pipeline Status', to: '10lab07practice2021@gmail.com'
+    		emailtext body: 'Summary', subject: 'Pipeline Status', to: '10lab07practice2021@gmail.com'
     	}
 
     }
